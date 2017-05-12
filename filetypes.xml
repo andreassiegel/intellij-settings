@@ -5,6 +5,7 @@
       <mapping pattern=".jdk8" type="PLAIN_TEXT" />
       <mapping ext="pub" type="PLAIN_TEXT" />
       <mapping ext="factories" type="PLAIN_TEXT" />
+      <mapping pattern="jenvrc" type="Properties" />
     </extensionMap>
   </component>
 </application>
