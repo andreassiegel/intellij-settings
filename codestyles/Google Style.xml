@@ -1,6 +1,9 @@
 <code_scheme name="Google Style">
   <option name="LINE_SEPARATOR" value="&#10;" />
   <option name="FORMATTER_TAGS_ENABLED" value="true" />
+  <MarkdownNavigatorCodeStyleSettings>
+    <option name="RIGHT_MARGIN" value="72" />
+  </MarkdownNavigatorCodeStyleSettings>
   <codeStyleSettings language="JAVA">
     <indentOptions>
       <option name="INDENT_SIZE" value="2" />
