@@ -1,0 +1,10 @@
+<application>
+  <component name="FileTypeManager" version="17">
+    <extensionMap>
+      <mapping pattern="CustomComponentResource" type="CLASS" />
+      <mapping pattern=".jdk8" type="PLAIN_TEXT" />
+      <mapping ext="pub" type="PLAIN_TEXT" />
+      <mapping ext="factories" type="PLAIN_TEXT" />
+    </extensionMap>
+  </component>
+</application>

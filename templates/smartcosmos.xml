@@ -1,0 +1,21 @@
+<templateSet group="smartcosmos">
+  <template name="todo" value="/**&#10; * TODO: $DEFAULT_TEXT$&#10; * author: $USER$&#10; * date: $DATE$&#10; */&#10;$END$" description="Create TODO comment" toReformat="true" toShortenFQNames="true">
+    <variable name="DEFAULT_TEXT" expression="&quot;enter description (include Jira ticket)&quot;" defaultValue="" alwaysStopAt="true" />
+    <variable name="USER" expression="user()" defaultValue="" alwaysStopAt="false" />
+    <variable name="DATE" expression="date(&quot;dd MMM yyyy&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="GROOVY" value="true" />
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="resta" value="// @formatter:off&#10;given()&#10;    .contentType(javax.ws.rs.core.MediaType.APPLICATION_JSON)&#10;    .body($given_body$)&#10;    .auth()&#10;    .preemptive()&#10;    .basic(getServerContext().getEmailAddress(), getServerContext().getCredentials())&#10;.when()&#10;    .$method$(getServerContext().getServerUrl() + getServerContext().getContextPath() + &quot;$path$&quot;)&#10;.then()&#10;    .statusCode($status_code$);&#10;// @formatter:on&#10;$END$" description="create basic rest assured test" toReformat="true" toShortenFQNames="true">
+    <variable name="given_body" expression="&quot;bodyObject&quot;" defaultValue="" alwaysStopAt="true" />
+    <variable name="method" expression="&quot;put&quot;" defaultValue="" alwaysStopAt="true" />
+    <variable name="path" expression="&quot;/foo&quot;" defaultValue="" alwaysStopAt="true" />
+    <variable name="status_code" expression="&quot;200&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+</templateSet>
