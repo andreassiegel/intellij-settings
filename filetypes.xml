@@ -14,8 +14,10 @@
       <mapping ext="vw" type="DBN-SQL" />
       <mapping pattern=".jdk8" type="PLAIN_TEXT" />
       <mapping ext="pub" type="PLAIN_TEXT" />
+      <mapping ext="timewatch" type="PLAIN_TEXT" />
       <mapping ext="factories" type="PLAIN_TEXT" />
       <mapping pattern="jenvrc" type="Properties" />
+      <mapping ext="plist" type="XML" />
     </extensionMap>
   </component>
 </application>
