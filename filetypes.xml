@@ -13,6 +13,7 @@
       <mapping ext="trg" type="DBN-PSQL" />
       <mapping ext="vw" type="DBN-SQL" />
       <mapping pattern=".jdk8" type="PLAIN_TEXT" />
+      <mapping pattern=".env" type="PLAIN_TEXT" />
       <mapping ext="pub" type="PLAIN_TEXT" />
       <mapping ext="timewatch" type="PLAIN_TEXT" />
       <mapping ext="factories" type="PLAIN_TEXT" />
